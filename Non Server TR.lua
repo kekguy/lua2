@@ -15,7 +15,7 @@ screenGui.Parent = playerGui
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Name = "EnabledLabel"
-textLabel.Text = ":white_check_mark: Pet Hatcher Enabled"
+textLabel.Text = ":white_check_mark: Pet Hatcher Enabled Non Server"
 textLabel.Size = UDim2.new(0, 200, 0, 50)
 textLabel.Position = UDim2.new(0.5, -100, 0.1, 0)
 textLabel.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
@@ -43,4 +43,5 @@ spawn(function()
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+
 

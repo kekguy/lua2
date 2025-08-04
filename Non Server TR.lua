@@ -34,7 +34,7 @@ repeat wait() until LocalData:IsReady()
 spawn(function()
     getgenv().PetHatcher = {
         Webhook = "https://discord.com/api/webhooks/1368315112737210398/ydQykT7Wt2IqZy94QkmVXOHkgE5jvPw0mYNSiUNJBn2ClRlk0-M7GFLcD6IjwsnWwLGU",
-        Ping = "@Pet Hatcher Secret Hatched!",
+        Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Secret", "Infinity"},
         Ignore = {"Mech Robot", "Unicorn", "Gummy Dragon", "Angel Bee", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Rock Candy Golem", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
@@ -43,3 +43,4 @@ spawn(function()
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+

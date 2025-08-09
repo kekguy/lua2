@@ -15,7 +15,7 @@ screenGui.Parent = playerGui
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Name = "EnabledLabel"
-textLabel.Text = "✅ Pet Hatcher Enabled"
+textLabel.Text = "✅ Pet Hatcher Enabled Server"
 textLabel.Size = UDim2.new(0, 200, 0, 50)
 textLabel.Position = UDim2.new(0.5, -100, 0.1, 0)
 textLabel.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
@@ -36,10 +36,11 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1368315112737210398/ydQykT7Wt2IqZy94QkmVXOHkgE5jvPw0mYNSiUNJBn2ClRlk0-M7GFLcD6IjwsnWwLGU",
         Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Gummy Dragon", "Angel Bee", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Rock Candy Golem", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
+        Ignore = {"Unicorn", "Gummy Dragon", "Angel Bee", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = true,
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+

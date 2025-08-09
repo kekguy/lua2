@@ -15,7 +15,7 @@ screenGui.Parent = playerGui
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Name = "EnabledLabel"
-textLabel.Text = "✅ Enabled Pet Hatcher"
+textLabel.Text = "✅ Enabled Pet Hatcher Zill"
 textLabel.Size = UDim2.new(0, 200, 0, 50)
 textLabel.Position = UDim2.new(0.5, -100, 0.1, 0)
 textLabel.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
@@ -36,7 +36,7 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1368349602901921884/KBMcZ3469kfFuypOdovJWoYd3ghB46rGesPi2BBR7Pn9JbyYCooaOyqjg0i6kIzMAiHV",
         Ping = "<@807429851895300107> hey nigger nice secret",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Gummy Dragon", "Angel Bee", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Rock Candy Golem", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
+        Ignore = {"Unicorn", "Gummy Dragon", "Angel Bee", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = false,

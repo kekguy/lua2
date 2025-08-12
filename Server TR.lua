@@ -33,7 +33,7 @@ local LocalData = require(game.ReplicatedStorage:WaitForChild("Client"):WaitForC
 repeat wait() until LocalData:IsReady()
 spawn(function()
     getgenv().PetHatcher = {
-        Webhook = "https://discord.com/api/webhooks/1368315112737210398/ydQykT7Wt2IqZy94QkmVXOHkgE5jvPw0mYNSiUNJBn2ClRlk0-M7GFLcD6IjwsnWwLGU",
+        Webhook = "https://discord.com/api/webhooks/1404953198023671808/MUVUNBL-ZzIln5ZwIU2eXsoXks3DaIFzCZQodnb2DGwiQvVL5vOjHqvAHQECvNZq6snY",
         Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Legendary", "Secret", "Infinity"},
         Ignore = {"Unicorn", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},

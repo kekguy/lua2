@@ -1,5 +1,12 @@
 repeat wait() until game:IsLoaded()
 
+if getgenv().PetHatcherRunning then
+    warn("Pet Hatcher Already Active!")
+    return
+end
+
+getgenv().PetHatcherRunning = true
+
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
@@ -43,3 +50,4 @@ spawn(function()
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+

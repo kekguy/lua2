@@ -50,10 +50,3 @@ spawn(function()
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
-
-
-
-
-
-
-

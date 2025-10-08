@@ -42,7 +42,7 @@ spawn(function()
     getgenv().PetHatcher = {
         Webhook = "https://discord.com/api/webhooks/1404953198023671808/MUVUNBL-ZzIln5ZwIU2eXsoXks3DaIFzCZQodnb2DGwiQvVL5vOjHqvAHQECvNZq6snY",
         Ping = "<@&785853304328421447> Secret Hatched!",
-        Rarities = {"Legendary", "Secret", "Infinity"},
+        Rarities = {"Secret", "Infinity"},
         Ignore = {"Unicorn", "Classic Unicorn", "Lantern Demon", "Autumn Paragon",  "Ice Winged Hydra", "Classic Dominus",  "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Dreamscape Influence", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
@@ -50,6 +50,7 @@ spawn(function()
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+
 
 
 

@@ -43,13 +43,14 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1368349602901921884/KBMcZ3469kfFuypOdovJWoYd3ghB46rGesPi2BBR7Pn9JbyYCooaOyqjg0i6kIzMAiHV",
         Ping = "<@807429851895300107> JEW",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Trickster",  "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus",  "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Dreamscape Influence", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
+        Ignore = {"Unicorn", "Trickster",  "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus",  "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = true,
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+
 
 
 

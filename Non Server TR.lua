@@ -43,13 +43,14 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1404953198023671808/MUVUNBL-ZzIln5ZwIU2eXsoXks3DaIFzCZQodnb2DGwiQvVL5vOjHqvAHQECvNZq6snY",
         Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Silly Unicorn", "OG Element Hydra", "OG Cursed Scorpio", "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus", "King Eye", "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
+        Ignore = {"Unicorn", "Silly Unicorn", "OG Element Hydra", "OG Unicore", "OG Fruity Shock", "OG Cursed Scorpio", "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus", "King Eye", "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = false,
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+
 
 
 

@@ -173,6 +173,49 @@ local ButtonCorner = Instance.new("UICorner")
 ButtonCorner.CornerRadius = UDim.new(0, 8)
 ButtonCorner.Parent = ToggleButton
 
+--------------------------------------------------------------------------------
+--👉 HIDE / SHOW BUTTON ADDED HERE
+--------------------------------------------------------------------------------
+local HideButton = Instance.new("TextButton")
+HideButton.Size = UDim2.new(0, 25, 0, 25)
+HideButton.Position = UDim2.new(1, -30, 0, 5)
+HideButton.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+HideButton.Text = "X"
+HideButton.TextColor3 = Color3.new(1, 1, 1)
+HideButton.Font = Enum.Font.GothamBold
+HideButton.TextSize = 14
+HideButton.Parent = Frame
+
+local HideCorner = Instance.new("UICorner")
+HideCorner.CornerRadius = UDim.new(0, 6)
+HideCorner.Parent = HideButton
+
+local ReopenButton = Instance.new("TextButton")
+ReopenButton.Size = UDim2.new(0, 40, 0, 40)
+ReopenButton.Position = UDim2.new(0.05, 0, 0.2, 0)
+ReopenButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ReopenButton.Text = "📜"
+ReopenButton.TextSize = 20
+ReopenButton.TextColor3 = Color3.new(1, 1, 1)
+ReopenButton.Font = Enum.Font.GothamBold
+ReopenButton.Visible = false
+ReopenButton.Parent = ScreenGui
+
+local ReopenCorner = Instance.new("UICorner")
+ReopenCorner.CornerRadius = UDim.new(0, 12)
+ReopenCorner.Parent = ReopenButton
+
+HideButton.MouseButton1Click:Connect(function()
+    Frame.Visible = false
+    ReopenButton.Visible = true
+end)
+
+ReopenButton.MouseButton1Click:Connect(function()
+    Frame.Visible = true
+    ReopenButton.Visible = false
+end)
+--------------------------------------------------------------------------------
+
 --// Button Logic
 ToggleButton.MouseButton1Click:Connect(function()
     if Running then

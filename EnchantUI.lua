@@ -13,7 +13,7 @@ local RemoteEvent = RemoteContainer.RemoteEvent
 
 local TARGET_ENCHANTS = {
     { Id = "ultra-roller" },
-    { Id = "secret-hunter" }
+    { Id = "shiny-seeker" }
 }
 local REROLL_CURRENCY = "Gems"
 local COOLDOWN_BETWEEN_REROLLS = 0.5

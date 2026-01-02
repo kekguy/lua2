@@ -41,7 +41,7 @@ repeat wait() until LocalData:IsReady()
 spawn(function()
     getgenv().PetHatcher = {
         Webhook = "https://discord.com/api/webhooks/1368349602901921884/KBMcZ3469kfFuypOdovJWoYd3ghB46rGesPi2BBR7Pn9JbyYCooaOyqjg0i6kIzMAiHV",
-        Ping = "<@807429851895300107> JEW",
+        Ping = "<@1456461871140966488> <@1096277528982863873>  NEW SECRET",
         Rarities = {"Legendary", "Secret", "Infinity"},
         Ignore = {"Guardian Cookie", "Snowglobe Hexarium", "Holiday Spirit", "Aurora Dragon", "Winter Phantom", "Giftbox Unicorn", "Giftbox Dark Phoenix", "Mistletoe Fiend", "Jingle Orb", "Royal Candy Cane", "Demonic Peppermint", "Snowball", "Frigid Star", "OG Cursed Scorpio", "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus", "King Eye", "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "New Year's Serpent", "New Year's Blast"},
         SkipEasyLegends = true,

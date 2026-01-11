@@ -43,13 +43,13 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1404953198023671808/MUVUNBL-ZzIln5ZwIU2eXsoXks3DaIFzCZQodnb2DGwiQvVL5vOjHqvAHQECvNZq6snY",
         Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Guardian Cookie", "Snowglobe Hexarium", "Holiday Spirit", "Aurora Dragon", "Winter Phantom", "Giftbox Unicorn", "Giftbox Dark Phoenix", "Mistletoe Fiend", "Jingle Orb", "Royal Candy Cane", "Demonic Peppermint", "Snowball", "Frigid Star", "OG Cursed Scorpio", "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus", "King Eye", "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "New Year's Serpent", "New Year's Blast"},
-        SkipEasyLegends = true,
+        Ignore = {"Golden Lion", "Circus Stack", "Golden Balloon", "Cotton Candy", "Aurora Dragon", "Winter Phantom", "Giftbox Unicorn", "Giftbox Dark Phoenix", "Mistletoe Fiend", "Jingle Orb", "Royal Candy Cane", "Demonic Peppermint", "Snowball", "Frigid Star", "OG Cursed Scorpio", "Classic Unicorn", "Lantern Demon", "Crimson Eye",  "Ice Winged Hydra", "Classic Dominus", "King Eye", "Lovely Lotus", "Angler Fish", "Night Dweller", "Marshmallow", "Flower Pot", "Space Invader", "Neon Wire Eye", "Virus", "Hexarium", "Ghostlord", "Jellyfish", "Emerald Golem", "Minty Serpent", "Magma Cube", "Thorn Dragon", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Angel", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "New Year's Serpent", "New Year's Blast"},SkipEasyLegends = true,
         HatchAmounts = false,
         Server = true,
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
+
 
 
 

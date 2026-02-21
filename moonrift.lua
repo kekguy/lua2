@@ -154,7 +154,7 @@ local function invokeRift()
 	local success, err = pcall(function()
 		local args = {
 			"SummonMoonRift",
-			{ Type = "Egg", Luck = 1, Time = 5 }
+			{ Type = "Egg", Luck = 5, Time = 5 }
 		}
 		game:GetService("ReplicatedStorage")
 			:WaitForChild("Shared")

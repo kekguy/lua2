@@ -82,7 +82,7 @@ local function spawnMoonRift()
 		"SummonMoonRift",
 		{
 			Type = "Egg",
-			Luck = 1,
+			Luck = 5,
 			Time = 5
 		}
 	}

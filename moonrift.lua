@@ -141,7 +141,7 @@ local isVisible = true
 local isTweening = false
 
 -- === Rift Logic ===
-local INTERVAL = 4 * 60 * 60 -- 4 hours in seconds
+local INTERVAL = 3 * 60 * 60 -- 4 hours in seconds
 
 local function formatTime(seconds)
 	local h = math.floor(seconds / 3600)
